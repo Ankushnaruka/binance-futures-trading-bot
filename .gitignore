@@ -1,1 +1,49 @@
 .env
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+myenv/
+
+# IDE / editor folders
+.vscode/
+.idea/
+
+# Environment files
+.env.*
+
+# Logs
+logs/*.log
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Testing / coverage
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Misc
+*.pyc
+*.pyo
+*.pyd
+*.egg
